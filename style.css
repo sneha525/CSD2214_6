@@ -1,0 +1,46 @@
+﻿/*
+ //Name:Sneha Sahani
+//Date: January 14,2019
+//Student: C0740756
+//Course: CSD 2214 Section 6
+*/
+body {
+    text-align: center;
+    background-color: coral;
+}
+h1{
+    color:black;
+}
+
+#clock{
+    background-color: chocolate;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+}
+
+#clock > div{
+    display:inline-block;
+    padding:5px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#clock div > span{
+    padding:10px;
+    border-radius:5px;
+    background-color:darkgrey;
+    display:inline-block;
+}
+
+small{
+    padding-top: 5px;
+    font-size: 0.9em;
+}
+
+input{
+    font-size:1.5em;
+    margin: 25px;
+    padding:10px;
+}
